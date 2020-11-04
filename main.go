@@ -10,7 +10,7 @@ func sumNums(arr[] int) int64 {
     for i := 0; i < len(arr); i++ {
         sum += int64(math.Abs(float64(arr[i])))
     }
-    return sum
+    return sum 
 }
 
 func main() {
